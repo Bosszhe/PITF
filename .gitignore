@@ -1,13 +1,16 @@
 transfuser/log
 **/wandb*
 carla
-results
+# results
 model_ckpt
 data
 leaderboard/scripts/
 .history
 transfuser/config.py
 leaderboard/leaderboard/leaderboard_evaluator.py
+
+*code-workspace
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
