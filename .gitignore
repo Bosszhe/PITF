@@ -1,7 +1,7 @@
 transfuser/log
 **/wandb*
 carla
-# results
+results
 model_ckpt
 data
 leaderboard/scripts/
