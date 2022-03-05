@@ -1,8 +1,167 @@
 {
     "_checkpoint": {
-        "global_record": {},
+        "global_record": {
+            "index": -1,
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.14142135488861035,
+                "collisions_vehicle": 7.539781798345128,
+                "outside_route_lanes": 0.0,
+                "red_light": 3.339937544721281,
+                "route_dev": 0.0,
+                "route_timeout": 11.69337602598965,
+                "stop_infraction": 0.6770735428972612,
+                "vehicle_blocked": 4028.6973288189533
+            },
+            "meta": {
+                "exceptions": [
+                    [
+                        "RouteScenario_0",
+                        0,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_1",
+                        1,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_2",
+                        2,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_6",
+                        6,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_7",
+                        7,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_8",
+                        8,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_9",
+                        9,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_10",
+                        10,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_11",
+                        11,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_12",
+                        12,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_14",
+                        14,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_15",
+                        15,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_16",
+                        16,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_17",
+                        17,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_18",
+                        18,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_19",
+                        19,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_20",
+                        20,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_21",
+                        21,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_22",
+                        22,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_23",
+                        23,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_24",
+                        24,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_25",
+                        25,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_26",
+                        26,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_27",
+                        27,
+                        "Failed - Agent got blocked"
+                    ],
+                    [
+                        "RouteScenario_28",
+                        28,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_29",
+                        29,
+                        "Failed - Agent timed out"
+                    ],
+                    [
+                        "RouteScenario_31",
+                        31,
+                        "Failed - Agent timed out"
+                    ]
+                ]
+            },
+            "route_id": -1,
+            "scores": {
+                "score_composed": 26.95841700754646,
+                "score_penalty": 0.8463124999999998,
+                "score_route": 36.30053249702912
+            },
+            "status": "Failed"
+        },
         "progress": [
-            30,
+            32,
             32
         ],
         "records": [
@@ -867,12 +1026,81 @@
                     "score_route": 32.26971913463114
                 },
                 "status": "Failed - Agent timed out"
+            },
+            {
+                "index": 30,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [],
+                    "red_light": [
+                        "Agent ran a red light 8351 at (x=22.75, y=-215.15, z=0.0)"
+                    ],
+                    "route_dev": [],
+                    "route_timeout": [],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 275.4000041037798,
+                    "duration_system": 688.4103481769562,
+                    "route_length": 70.71067811865476
+                },
+                "route_id": "RouteScenario_30",
+                "scores": {
+                    "score_composed": 70.0,
+                    "score_penalty": 0.7,
+                    "score_route": 100.0
+                },
+                "status": "Completed"
+            },
+            {
+                "index": 31,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "outside_route_lanes": [],
+                    "red_light": [],
+                    "route_dev": [],
+                    "route_timeout": [
+                        "Route timeout."
+                    ],
+                    "stop_infraction": [],
+                    "vehicle_blocked": []
+                },
+                "meta": {
+                    "duration_game": 97.0500014461577,
+                    "duration_system": 273.98744654655457,
+                    "route_length": 70.71067811865476
+                },
+                "route_id": "RouteScenario_31",
+                "scores": {
+                    "score_composed": 16.327822507572563,
+                    "score_penalty": 1.0,
+                    "score_route": 16.327822507572563
+                },
+                "status": "Failed - Agent timed out"
             }
         ]
     },
-    "eligible": false,
-    "entry_status": "Started",
-    "labels": [],
+    "eligible": true,
+    "entry_status": "Finished with agent errors",
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked"
+    ],
     "sensors": [
         "carla_camera",
         "carla_camera",
@@ -883,5 +1111,18 @@
         "carla_gnss",
         "carla_speedometer"
     ],
-    "values": []
+    "values": [
+        "26.958",
+        "36.301",
+        "0.846",
+        "0.141",
+        "7.540",
+        "0.000",
+        "3.340",
+        "0.677",
+        "0.000",
+        "0.000",
+        "11.693",
+        "4028.697"
+    ]
 }
